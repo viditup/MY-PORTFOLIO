@@ -1,0 +1,154 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+/* Header styles */
+.header {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.menu-icon {
+    font-size: 24px;
+}
+
+/* Navbar styles */
+.navbar {
+    display: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+/* Home section styles */
+.home {
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Services section styles */
+.services {
+    padding: 50px 20px;
+    background-color: #f2f2f2;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service {
+    margin-bottom: 30px;
+}
+
+.service h3 {
+    color: red;
+    margin-bottom: 10px;
+}
+
+/* Projects section styles */
+.projects {
+    padding: 50px 20px;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project img {
+    width: 100%;
+    border: 2px solid black;
+}
+
+/* Contact section styles */
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact input,
+.contact textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer .social {
+    margin-bottom: 20px;
+}
+
+.footer .menu {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.footer .menu li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+    .navbar {
+        display: block;
+    }
+    .navbar.active {
+        display: flex;
+        flex-direction: column;
+        background-color: red;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    .navbar a {
+        display: block;
+        padding: 10px;
+        border-bottom: 1px solid white;
+    }
+}
