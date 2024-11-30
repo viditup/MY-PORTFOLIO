@@ -39,6 +39,7 @@ Skills Section: Displays my technical skills with icons and descriptions.
 Projects Section: Showcases some of my key projects.
 Education Section: Highlights my academic background and achievements.
 Contact Section: Provides ways to get in touch with me.
+
 🤝 Connect with Me
 LinkedIn: Vidit Upadhyay
 GitHub: viditup
